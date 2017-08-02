@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74BA83DE1F2FC43800E6A027 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA83DD1F2FC43800E6A027 /* SecondViewController.swift */; };
 		74F7E6D01F22C572004A2EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7E6CF1F22C572004A2EE6 /* AppDelegate.swift */; };
 		74F7E6D21F22C572004A2EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7E6D11F22C572004A2EE6 /* ViewController.swift */; };
 		74F7E6D51F22C572004A2EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F7E6D31F22C572004A2EE6 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74BA83DD1F2FC43800E6A027 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		74F7E6CC1F22C572004A2EE6 /* Random Bible Verse Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Bible Verse Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F7E6CF1F22C572004A2EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74F7E6D11F22C572004A2EE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				74F7E6CF1F22C572004A2EE6 /* AppDelegate.swift */,
 				74F7E6D11F22C572004A2EE6 /* ViewController.swift */,
 				74F7E6D31F22C572004A2EE6 /* Main.storyboard */,
+				74BA83DD1F2FC43800E6A027 /* SecondViewController.swift */,
 				74F7E6D91F22C572004A2EE6 /* Assets.xcassets */,
 				74F7E6DB1F22C572004A2EE6 /* LaunchScreen.storyboard */,
 				74F7E6DE1F22C572004A2EE6 /* Info.plist */,
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BA83DE1F2FC43800E6A027 /* SecondViewController.swift in Sources */,
 				74F7E6D81F22C572004A2EE6 /* Random_Bible_Verse_Journal.xcdatamodeld in Sources */,
 				74F7E6D21F22C572004A2EE6 /* ViewController.swift in Sources */,
 				74F7E6D01F22C572004A2EE6 /* AppDelegate.swift in Sources */,
@@ -418,6 +422,7 @@
 				74F7E6EE1F22C573004A2EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74F7E6EF1F22C573004A2EE6 /* Build configuration list for PBXNativeTarget "Random Bible Verse JournalTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				74F7E6F11F22C573004A2EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
