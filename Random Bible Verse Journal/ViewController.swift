@@ -14,9 +14,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //Action connection for Random Bible Verse Button
     @IBAction func randomBIbleVerse(_ sender: Any) {
-        
-        var random = arc4random_uniform(100)
+        //Choose a random number between 1 and 100
+        let random = arc4random_uniform(100)
         print(random)
     }
     

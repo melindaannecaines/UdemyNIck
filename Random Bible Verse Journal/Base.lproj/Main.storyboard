@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iyz-Uc-O1I">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -28,7 +28,7 @@
                                 <state key="normal" title="Random Bible Verse"/>
                                 <connections>
                                     <action selector="randomBIbleVerse:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EVd-5j-0KW"/>
-                                    <segue destination="gfW-b0-6sg" kind="show" identifier="to Random Bible Verse" id="35I-Ht-baH"/>
+                                    <segue destination="gfW-b0-6sg" kind="show" id="AqZ-dK-8eW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yp1-7q-AaE">
@@ -58,10 +58,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="tOG-z0-jfe"/>
+                    <connections>
+                        <segue destination="gfW-b0-6sg" kind="show" id="qAh-SA-RJB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="129.98500749625188"/>
+            <point key="canvasLocation" x="3893.5999999999999" y="129.98500749625188"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="Pof-mH-ELK">
@@ -79,25 +82,28 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yb5-yM-Zga" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1799" y="130"/>
+            <point key="canvasLocation" x="4615.1999999999998" y="129.98500749625188"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="awr-j5-Uk1">
+        <scene sceneID="E9q-Qr-5Dc">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V9u-Qk-5RI" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iyz-Uc-O1I" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EbU-jk-wll">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aRp-tN-G4y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="11c-Kk-ubn"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KmJ-Ap-El9"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PmW-NU-u0l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="htY-8n-tjQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="129.98500749625188"/>
+            <point key="canvasLocation" x="2954.4000000000001" y="129.98500749625188"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="qAh-SA-RJB"/>
+    </inferredMetricsTieBreakers>
 </document>
