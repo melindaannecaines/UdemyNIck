@@ -27,6 +27,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Random Bible Verse"/>
                                 <connections>
+                                    <action selector="randomBIbleVerse:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EVd-5j-0KW"/>
                                     <segue destination="gfW-b0-6sg" kind="show" identifier="to Random Bible Verse" id="35I-Ht-baH"/>
                                 </connections>
                             </button>

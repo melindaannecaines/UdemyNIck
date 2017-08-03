@@ -9,6 +9,9 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    
+    //Randomly select a number from 1 to 100
+  
 
     override func viewDidLoad() {
         super.viewDidLoad()
